@@ -10,7 +10,8 @@
     display: block;
   }
   /* banner section  */
-  .banner {
+  .banner,
+  .run {
     flex-direction: column;
   }
 
@@ -61,5 +62,16 @@
   .habit {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 40px;
+  }
+
+  /* Run an Extra Mile easily section styled    */
+  .run {
+    padding: 20px;
+  }
+  .run-title {
+    font-size: 2rem;
+  }
+  .run-content button {
+    width: 100%;
   }
 }

@@ -68,14 +68,18 @@ body {
   color: #ffffff;
   text-align: center;
 }
-.head-title {
+.head-title,
+.run-title {
   font-size: 3rem;
   font-weight: 700;
   margin: 14px 0;
+  color: #ffffff;
 }
-.head-description {
+.head-description,
+.run-description {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
 }
 /* header section styles start  */
 .navbar {
@@ -249,3 +253,33 @@ body {
 }
 
 /* the change You Habits section styles end */
+
+/* Run an Extra Mile easily section styled start  */
+
+.run {
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  padding: 32px;
+}
+.run-content {
+  max-width: 430px;
+}
+.run-content button {
+  margin-top: 32px;
+}
+.run-image {
+  max-width: 450px;
+}
+.run-image img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+
+/* Run an Extra Mile easily section styled end */

@@ -1,0 +1,11 @@
+/* the responsive media query  */
+
+/* small device responsive  */
+@media screen and (max-width: 576px) {
+  .desktop {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+}

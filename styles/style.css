@@ -6,14 +6,80 @@
   src: url("../fonts/Miama.ttf");
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "slnt" 0;
+  background-color: #000;
 }
 
 /* share styles  */
+.container {
+  width: 90%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.display-flex {
+  display: flex;
+}
 
 /* header section styles start  */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 57px;
+}
+
+.phone {
+  display: none;
+}
+.phone i {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.desktop {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 4px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 47px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 20px;
+  color: #ffffff;
+  display: inline-block;
+}
+.active {
+  background-color: #e6533c;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.brand {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #e6533c;
+  font-style: italic;
+}

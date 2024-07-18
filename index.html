@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- custom styles  -->
     <link rel="stylesheet" href="styles/style.css" />
     <!-- responsive styles  -->
@@ -12,7 +20,25 @@
   <body>
     <!-- header part  start   -->
     <header>
-      <h1>this is a testing</h1>
+      <div class="container">
+        <!-- navigation bar -->
+        <nav class="navbar display-flex">
+          <h2 class="brand">Fitness</h2>
+          <!-- phone menu  -->
+          <div class="phone">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <!-- desktop menu  -->
+          <ul class="desktop display-flex">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main></main>
     <footer></footer>

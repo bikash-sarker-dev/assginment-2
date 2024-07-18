@@ -2,10 +2,64 @@
 
 /* small device responsive  */
 @media screen and (max-width: 576px) {
-  .desktop {
+  .desktop,
+  .club {
     display: none;
   }
   .phone {
     display: block;
+  }
+  /* banner section  */
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 2.4rem;
+  }
+  .font-change-miama {
+    font-size: 7.3rem;
+    line-height: 80px;
+  }
+  .btn-secondary,
+  .btn-primary {
+    padding: 16px 20px;
+    margin-left: 5px;
+  }
+  .banner-image {
+    margin-top: 50px;
+  }
+  .workout-video {
+    top: 129px;
+    right: -70px;
+  }
+  .small-card {
+    padding: 10px;
+  }
+  .workout-video h3 {
+    font-size: 1.5rem;
+  }
+  .workout-video span {
+    font-size: 0.8rem;
+  }
+  .tutorial-video h3 {
+    font-size: 1.1rem;
+  }
+  .tutorial-video span {
+    font-size: 0.8rem;
+  }
+  .workout-video {
+    top: 68px;
+    right: 11px;
+  }
+  .tutorial-video {
+    bottom: 240px;
+    left: 23px;
+  }
+
+  /* change your habits section  */
+  .habit {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 40px;
   }
 }

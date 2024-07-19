@@ -81,6 +81,10 @@ body {
   color: rgba(255, 255, 255, 0.5);
   line-height: 24px;
 }
+
+.hide {
+  display: none;
+}
 /* header section styles start  */
 .navbar {
   justify-content: space-between;

@@ -89,4 +89,9 @@
   .head-title {
     font-size: 2rem;
   }
+
+  /* our team section  */
+  .our-team {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

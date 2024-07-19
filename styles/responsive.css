@@ -11,7 +11,9 @@
   }
   /* banner section  */
   .banner,
-  .run {
+  .run,
+  .main-footer,
+  .footer-get-started {
     flex-direction: column;
   }
 
@@ -93,5 +95,14 @@
   /* our team section  */
   .our-team {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* footer part  */
+
+  .get-started-one {
+    margin-top: 30px;
+  }
+  .get-started-two {
+    margin-top: 20px;
   }
 }

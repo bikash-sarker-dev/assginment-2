@@ -74,4 +74,19 @@
   .run-content button {
     width: 100%;
   }
+
+  /* training and exercises style  */
+
+  .row-2,
+  .row-1 {
+    grid-template-columns: repeat(2, 1fr);
+    height: 180px;
+  }
+  .row-1 .train-service:nth-child(3),
+  .row-2 .train-service:nth-child(3) {
+    display: none;
+  }
+  .head-title {
+    font-size: 2rem;
+  }
 }

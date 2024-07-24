@@ -363,6 +363,26 @@ body {
   margin-bottom: 90px;
 }
 
+table,
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+
+th {
+  color: #ffffff;
+  text-align: left;
+  padding: 15px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+td {
+  padding: 13px 18px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
 .calculator {
   background-color: rgba(34, 34, 34, 1);
   padding: 50px 0;
@@ -382,7 +402,9 @@ body {
   font-weight: 700;
   color: #ffffff;
 }
-
+.cal-chart-title {
+  margin-bottom: 52px;
+}
 .form-head-description {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.5);

@@ -13,7 +13,8 @@
   .banner,
   .run,
   .main-footer,
-  .footer-get-started {
+  .footer-get-started,
+  .cal-main {
     flex-direction: column;
   }
 
@@ -75,6 +76,18 @@
   }
   .run-content button {
     width: 100%;
+  }
+  /* BMI calculator section styles start */
+  .form-head-title,
+  .cal-chart-title {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .cal-form {
+    margin-top: 42px;
+  }
+  .cal-chart-title {
+    margin-bottom: 25px;
   }
 
   /* training and exercises style  */
